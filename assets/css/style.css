@@ -151,5 +151,9 @@ main{
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-    
+
+    main{
+        /*Move Main Content further Down to Accommodate Larger Nav Section*/
+        margin-top: 87.7px;
+    }
 }
