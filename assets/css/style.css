@@ -144,6 +144,20 @@ main{
     margin: 5px 0;
 }
 
+/*Adding Circular Image to Reasons Section*/
+#circle-cover-bg{
+    background: url("../images/reasons.jpg") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
