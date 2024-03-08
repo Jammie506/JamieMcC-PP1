@@ -86,6 +86,7 @@ main{
     background-color: antiquewhite;
     /*Forcing Main to take up extra space*/
     flex: 1 0 auto;
+    margin-top: 82px;
 }
 
 /*Footer*/
