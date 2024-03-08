@@ -89,10 +89,17 @@ h1{
 
 /*Main Content*/
 main{
-    background-color: antiquewhite;
     /*Forcing Main to take up extra space*/
     flex: 1 0 auto;
     margin-top: 82px;
+}
+
+/*Hero Banner*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 /*Footer*/
