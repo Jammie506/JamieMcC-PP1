@@ -196,6 +196,72 @@ main{
     padding-top: 20px;
 }
 
+/* Forms */
+#signup {
+    background-image: url("../images/communitymeets.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#createmeetup {
+    background-image: url("../images/communitymeets.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 35%;
+    padding: 20px 10% 0 10%;
+    height: 85vh;
+}
+
+#createmeetup-form {
+    color: #ffffff;
+    background-color: rgba(8, 143, 143, 0.6);
+    padding: 30px;
+}
+
+#create-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
@@ -252,27 +318,63 @@ main{
         right: 50px;
     }
 
-        /* Reasons Section*/
-        #benefits-physical, #benefits-mental{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
+    /* Reasons Section*/
+    #benefits-physical, #benefits-mental{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
     
-        #benefits-physical > div, #benefits-mental > div{
-            width: 75%;
-        }
+    #benefits-physical > div, #benefits-mental > div{
+        width: 75%;
+    }
     
-        #benefits-mental > div{
-            text-align: end;
-            align-self: flex-end;
-        }
+    #benefits-mental > div{
+        text-align: end;
+        align-self: flex-end;
+    }
     
-        #benefits-physical > div{
-            text-align: start;
-            align-self: flex-start;
-        }
+    #benefits-physical > div{
+        text-align: start;
+        align-self: flex-start;
+    }
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    #createmeetup {
+        background-position: center;
+        position: relative;
+        height: 90vh;
+    }
+
+    #createmeetup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
+
 
 /*Media Query: 991px & Up (Small Laptop & Larger)*/
 @media screen and (min-width: 991px){

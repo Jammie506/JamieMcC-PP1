@@ -46,7 +46,37 @@
     <!--Main Content-->
     <main>
         <body>
-            <h1>Main Content</h1>
+            <section id="createmeetup">
+                <form id="createmeetup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2><i class="fa-regular fa-calendar-plus" style="color: #3a3a3a;"></i> Let's Get Your Meetup Posted!</h2>
+                    <br>
+                    <p>Fill in this short form and we will be in touch to set up your meetup!</p>
+                    <br>
+                    <label for="event_name">Event Name</label>
+                    <input type="text" name="event_name" id="event_name" class="text-input" required>
+                    <br>
+                    <label for="event_times">Event Times</label>
+                    <input type="text" name="event_times" id="event_times" class="text-input" required>
+                    <br>
+                    <label for="Training Details">Training Details</label>
+                    <input type="text" name="training_details" id="Training Details" class="text-input" required>
+                    <br>
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <br>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="pool">Pool</label>
+                            <input type="radio" name="training_type" id="pool" value="pool" required checked>
+                        </div>
+                        <div>
+                            <label for="seaswim">Sea Swim</label>
+                            <input type="radio" name="training_type" id="seaswim" value="seaswim" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="join-button">Submit!</button>
+                </form>
+            </section>
         </body>
     </main>
     
