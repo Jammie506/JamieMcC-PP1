@@ -188,6 +188,14 @@ main{
     color: #fafafa;
 }
 
+#community-meets{
+    padding-top: 50px;
+}
+
+.community-calendar{
+    padding-top: 20px;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
