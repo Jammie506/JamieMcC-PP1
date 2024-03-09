@@ -198,16 +198,17 @@ main{
 
 /* Forms */
 #signup {
-    background-image: url("../images/communitymeets.jpg");
-    background-size: cover;
-    background-position: 75%;
+    background-image: url("../images/signupimage.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 35%;
     padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    height: 85vh;
 }
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(8, 143, 143, 0.6);
     padding: 30px;
 }
 
@@ -231,7 +232,7 @@ main{
     padding: 30px;
 }
 
-#create-form>h2 {
+#createmeetup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -343,6 +344,7 @@ main{
     #signup {
         background-position: center;
         position: relative;
+        height: 90vh;
     }
 
     #signup-form {
