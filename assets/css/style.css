@@ -229,7 +229,9 @@ main{
 #createmeetup-form {
     color: #ffffff;
     background-color: rgba(8, 143, 143, 0.6);
-    padding: 30px;
+    padding: 10px;
+    padding-top: 30px;
+    max-height: 85vh;
 }
 
 #createmeetup-form>h2 {
