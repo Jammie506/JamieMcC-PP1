@@ -263,6 +263,17 @@ main{
     color: #fafafa;
 }
 
+/*Gallery*/
+
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos{
+    line-height: 0;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
@@ -276,6 +287,15 @@ main{
     font-size: 60%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/*Media Query: 576px & Up (Landscape Phones/ Small Tablets)*/
+@media screen and (min-width: 576px) {
+    /*Gallery*/
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /*Media Query: 786px & Up (Tablet & Larger)*/
@@ -374,6 +394,11 @@ main{
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+    /*Gallery*/
+    #photos{
+        column-count: 3;
     }
 }
 
