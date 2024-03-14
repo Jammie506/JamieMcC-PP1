@@ -154,7 +154,7 @@ main{
     background: url("../images/reasons.jpg") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
-    border-radius: 50%;
+    border-radius: 40%;
     margin-bottom: 20px;
     max-width: 300px;
     max-height: 300px;
@@ -174,7 +174,7 @@ main{
 
 #times div{
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(8, 143, 143, .6);
     padding: 15px;
     text-align: center;
     /*This will not wrap on screens less than 300px wide. Each div will expand to fill the available space on it's row*/
@@ -202,6 +202,7 @@ main{
 .community-calendar{
     padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 30px;
 }
 
 /* Forms */
@@ -285,6 +286,10 @@ main{
 }
 
 /*Footer*/
+
+footer{
+    background-color: #89ecda;
+}
 #social-networks{
     text-align: center;
     padding: 20px;
