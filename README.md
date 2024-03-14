@@ -6,6 +6,7 @@ Love Swimming is a website that aims to provide a smooth and friendly way for pe
 
 The site will also allow users to set up their own “Community Meets”, allowing for the growth of the community into more specialized training sections for all abilities and styles. Love Swimming will also be useful for swimmers to progress their skills in the water to their desired level, whether this would be to join a more competitive team to compete in races or simply to feel more confident in the water on holidays.
 
+![mock up of the love swimming home page accross a variety of devices](assets/images/loveswimming-mockup.png)
 
 ## Features
 
@@ -14,27 +15,39 @@ The site will also allow users to set up their own “Community Meets”, allowi
     * The simplistic design of the Navigation Bar clearly outlines all that is available for visitors to the site, both on Mobile and Desktop.
     * The Navigation Bar has been designed to automatically hide using CSS on smaller screens, to be replaced with a menu icon, in order to prevent visual overcrowding.
 
+![image of the love swimming nav bar](assets/images/navbar.png)
+
 * Home Page
     * The home page includes a large “Hero Image” that draws the user’s attention, encouraging them to remain on the site.
     * The use of bright colours also served to catch the user’s attention by creating a visually appealing page.
     * On large screens the page is laid out in such a way that users can see some of the content below the hero image, encouraging them to scroll to read it. This can increase the amount of time that the user remains on the site.
 
+![image of the love swimming home page](assets/images/homepage.png)
+
 * Benefits of Swimming
     * This section outlines some of the reasons that users may be interested in joining the club.
     * The various and wide-ranging information should help to encourage a wider audience of people to become interested in the club.
+
+![image of the love swimming nav bar](assets/images/navbar.png)
 
 * Meet Ups & Community Meets
     * This page allows users to see what option they have for attending a club meet for a specific purpose, such as for general training or as a way to attend more focused training.
     * The “Community Meets” section allows users to explore training sessions created by members of the wider Love Swimming community.
     * The “Community Meets” section allows users to explore training sessions created by members of the wider Love Swimming community.
 
+![image of the love swimming meetups page](assets/images/meetups.png)
+
 * Social Media Section
     * On each page, located in the footer of each page allows users to find the club in alternate places outside If the primary website. This can help encourage them to incorporate the club into their social life, increasing attendance.
     * As the links to social media are pinned to the bottom of each page, they remain unobtrusive yet easily accessible for all site users.
 
+![image of the love swimming socials list](assets/images/socials.png)
+
 * Gallery 
     * Page contains images of past club events to give new and existing members a chance to see what the club is about and what they have been involved in previously.
     * This page has value as it allows viewers to see what the team organises and establish if it is something that they would be interested in overall.
+
+![image of the love swimming gallery](assets/images/gallery.png)
 
 ## Features to be Implemented
 
