@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     /*Generic Styling*/
-    color: #3a3a3a;
+    color: #a4a4a4;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,12 +28,12 @@ h1, h2, h3{
     font-family: 'Nunito', sans-serif;
     text-transform:  uppercase;
     letter-spacing: 1.5px;
-    color: #252525;
+    color: #666666;
 }
 
 /*Header*/
 header{
-    background-color: #ffffff;
+    background-color: #89ecda;
     padding: 1rem;
     position: fixed;
     z-index: 99;
@@ -47,7 +47,7 @@ header{
 /*Style Navbar with Dropdown Option*/
 nav{
     position: absolute;
-    background-color: #ffffff;
+    background-color: #89ecda;
     width: 100%;
     left: 0;
     padding: 0 1.5rem;
@@ -96,6 +96,7 @@ main{
     /*Forcing Main to take up extra space*/
     flex: 1 0 auto;
     margin-top: 82px;
+    background-color: #b3ecec;
 }
 
 /*Hero Banner*/
